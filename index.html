@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel='stylesheet' href='styles.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <title>Music Player </title>
+</head>
+
+<body>
+    <h1> Custom Controlled Music Player using Javascript </h1>
+    <div class="player-container">
+        <div class="img-container">
+            <img src="img/jacinto-1.jpg" alt="Album Art" id="audioImg">
+        </div>
+        <h2 id="title"></h2>
+        <h3 id="artist"></h3>
+        
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+                <div class="duration-wrapper" id="duration-wrapper">
+                    <span id="current-time" id></span>
+                    <span id="duration"></span>
+                
+            </div>
+        </div>
+        <audio src="/music/jacinto-1.mp3" id="audio"></audio>
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous">
+            </i>
+            <i id="play" class="fas fa-play main-button" title="Play"></i>
+            <i id="next" class="fas fa-forward" title="Next"></i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
