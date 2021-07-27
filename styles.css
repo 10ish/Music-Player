@@ -136,7 +136,8 @@ top:3px;
         padding-bottom: 30px;
     }
     .img-container {
-       margin-left: 10px;
+       margin: 5px 10px;
+       width: 75%;
     }
     h2 {
         font-size: 20px;
